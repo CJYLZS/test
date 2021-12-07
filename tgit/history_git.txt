@@ -1,0 +1,121 @@
+      1  4647  md remotegit
+      1  4650  git init --bare
+      1  4659  mv localtgit localgit
+      1  4662  git remote add origin ../remotegit
+      1  4663  git remote
+      1  4664  git remote -l
+      1  4665  git remote -v
+      1  4667  git push origin master:master
+      1  4677  git log --all --graph --decorate --oneline
+      1  4680  git clone remotegit/ clonegit
+      1  4685  git branch -v
+      1  4686  git branch -vv
+      1  4689  git branch -v
+      1  4690  git branch -vv
+      1  4691  git log --all --graph --decorate --oneline
+      1  4698  git status
+      1  4699  git add . 
+      1  4700  git commit -m " add fuck you "
+      1  4701  git push
+      1  4702  git push origin master:master
+      1  4706  clonegit
+      1  4708  git fetch
+      1  4710  git branch -vv
+      1  4711  git log --all --graph --decorate --oneline
+      1  4713  git pull
+      1  4723  git config
+      1  4727  git log --all --graph --decorate --oneline
+      1  4728  git log --all --graph --decorate --oneline | grep *
+      1  4729  git log --all --graph --decorate --oneline | grep \*
+      1  4730  git show ca6b
+      1  4731  git show ca6d
+      1  4732  git help blame
+      1  4733  tldr git blame
+      1  4734  git blame fuckyou.txt
+      1  4737  history 1 | tail -n300 | grep git > gitstudyhistory.txt
+      1  4739  mv gitstudyhistory.txt ../
+      1  4742  cat gitstudyhistory.txt
+      1  4743  cat gitstudyhistory.txt | wc -l
+      1  4744  tldr git stash
+      1  4761  touch .gitignore
+      1  4775  history 1 | tail -n300 | grep git > gitstudyhistory.txt
+      1  4776  cat gitstudyhistory.txt | wc -l
+      1  4787  git init
+      1  4789  git status
+      1  4790  git add .
+      1  4792  git status
+      1  4794  touch .gitignore
+      1  4796  rm -rf .git
+      1  4799  vim .gitignore
+      1  4800  git init
+      1  4801  git add .
+      1  4802  git status
+      1  4804  git add.
+      1  4805  git add .
+      1  4806  git status
+      1  4816  git add .
+      1  4817  git status
+      1  4818  git add tgit/localgit
+      1  4819  git status
+      1  4825  rm -rf .git
+      1  4828  rm .gitignore
+      1  4830  git init
+      1  4832  git status
+      1  4833  git add tgit
+      1  4834  git status
+      1  4835  tldr git add
+      1  4836  git add -A
+      1  4837  git status
+      1  4842  touch .gitignore
+      1  4843  vim .gitignore
+      1  4845  git status
+      1  4846  cat .gitignore
+      1  4847  git add .
+      1  4848  git status
+      1  4849  vim .gitignore
+      1  4850  git status
+      1  4851  git add .
+      1  4852  git status
+      1  4853  git commit -m "first init"
+      1  4854  git status
+      1  4856  cat .gitignore
+      1  4858  git submodule add tgit/localgit
+      1  4859  git submodule add ./tgit/localgit
+      1  4861  git status
+      1  4862  tldr git submodule
+      1  4864  ls localgit
+      1  4865  rm -rf localgit
+      1  4867  git status
+      1  4868  git add .
+      1  4870  git submodule add ./tgit/localgit ./tgit/localgit
+      1  4872  cat .gitignore
+      1  4873  git check-ignore
+      1  4874  git check-ignore .
+      1  4875  tldr git check-ignore
+      1  4876  git check-ignore tgit/localgit
+      1  4877  git check-ignore tgit/localgit --verbose
+      1  4878  git check-ignore tgit/localgit --vv
+      1  4879  git check-ignore tgit/localgit -v
+      1  4880  git check-ignore -v tgit/localgit
+      1  4881  cat .git
+      1  4882  cat .gitignore
+      1  4883  vim .gitignore
+      1  4884  git add .
+      1  4886  git check-ignore -v tgit/localgit
+      1  4888  rm -rf .git
+      1  4890  git init
+      1  4891  cat .gitignore
+      1  4892  git add .
+      1  4894  git commit -m "init first"
+      1  4896  git check-ignore -v tgit/localgit
+      1  4897  rm -rf .git
+      1  4899  zip -r tgit.zip tgit/
+      1  4901  mv tgit.zip tgit/
+      1  4906  vim ./gitig
+      1  4907  vim .gitignore
+      1  4909  git init
+      1  4910  git add .
+      1  4911  git commit -m "init"
+      1  4914  git log --all --graph --decorate --oneline | grep \*
+      1  4915  git log --all --graph --decorate
+      1  4941  man git
